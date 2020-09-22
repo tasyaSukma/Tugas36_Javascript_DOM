@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Belajar Javascript - NIOMIC</title>
+</head>
+<body>
+	<h2 class="h2">Login</h2>
+        <p class="paragraph">- Department of Finance -</p>
+        <input type="email" id="email" value="email" /> <br /><br />
+        <input type="username" id="uname" value="username" /> <br /><br />
+        <input type="password" class="password" value="password" /> <br /><br />
+
+        <button type="button" onclick="panggilJalan()" name="button">Jalan</button>
+
+	<script type="text/javascript">
+		function panggilJalan(){
+			var selector = document.querySelector('#email')
+			var selectH2 = document.getElementsByClassName("h2")
+			var passClass = document.getElementsByClassName("password")
+			var tagParagraph = document.querySelector('p')
+
+
+			console.log(selector)
+			console.log(selectH2)
+			console.log(passClass)
+			console.log(tagParagraph)
+		}
+	</script>
+</body>
+</html>
